@@ -1,0 +1,12 @@
+D:\pablo\restaurante\Restaurante.Infrastructure\bin\Debug\netcoreapp2.0\Restaurante.Infrastructure.deps.json
+D:\pablo\restaurante\Restaurante.Infrastructure\bin\Debug\netcoreapp2.0\Restaurante.Infrastructure.dll
+D:\pablo\restaurante\Restaurante.Infrastructure\bin\Debug\netcoreapp2.0\Restaurante.Infrastructure.pdb
+D:\pablo\restaurante\Restaurante.Infrastructure\bin\Debug\netcoreapp2.0\Restaurante.ApplicationCore.dll
+D:\pablo\restaurante\Restaurante.Infrastructure\bin\Debug\netcoreapp2.0\Restaurante.ApplicationCore.pdb
+D:\pablo\restaurante\Restaurante.Infrastructure\obj\Debug\netcoreapp2.0\Restaurante.Infrastructure.csprojAssemblyReference.cache
+D:\pablo\restaurante\Restaurante.Infrastructure\obj\Debug\netcoreapp2.0\Restaurante.Infrastructure.csproj.CoreCompileInputs.cache
+D:\pablo\restaurante\Restaurante.Infrastructure\obj\Debug\netcoreapp2.0\Restaurante.Infrastructure.AssemblyInfoInputs.cache
+D:\pablo\restaurante\Restaurante.Infrastructure\obj\Debug\netcoreapp2.0\Restaurante.Infrastructure.AssemblyInfo.cs
+D:\pablo\restaurante\Restaurante.Infrastructure\obj\Debug\netcoreapp2.0\Restaurante.Infrastructure.csproj.CopyComplete
+D:\pablo\restaurante\Restaurante.Infrastructure\obj\Debug\netcoreapp2.0\Restaurante.Infrastructure.dll
+D:\pablo\restaurante\Restaurante.Infrastructure\obj\Debug\netcoreapp2.0\Restaurante.Infrastructure.pdb

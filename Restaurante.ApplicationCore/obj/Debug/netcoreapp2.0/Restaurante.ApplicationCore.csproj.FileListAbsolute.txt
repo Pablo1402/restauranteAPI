@@ -1,0 +1,9 @@
+D:\pablo\restaurante\Restaurante.ApplicationCore\bin\Debug\netcoreapp2.0\Restaurante.ApplicationCore.deps.json
+D:\pablo\restaurante\Restaurante.ApplicationCore\bin\Debug\netcoreapp2.0\Restaurante.ApplicationCore.dll
+D:\pablo\restaurante\Restaurante.ApplicationCore\bin\Debug\netcoreapp2.0\Restaurante.ApplicationCore.pdb
+D:\pablo\restaurante\Restaurante.ApplicationCore\obj\Debug\netcoreapp2.0\Restaurante.ApplicationCore.csproj.CoreCompileInputs.cache
+D:\pablo\restaurante\Restaurante.ApplicationCore\obj\Debug\netcoreapp2.0\Restaurante.ApplicationCore.AssemblyInfoInputs.cache
+D:\pablo\restaurante\Restaurante.ApplicationCore\obj\Debug\netcoreapp2.0\Restaurante.ApplicationCore.AssemblyInfo.cs
+D:\pablo\restaurante\Restaurante.ApplicationCore\obj\Debug\netcoreapp2.0\Restaurante.ApplicationCore.dll
+D:\pablo\restaurante\Restaurante.ApplicationCore\obj\Debug\netcoreapp2.0\Restaurante.ApplicationCore.pdb
+D:\pablo\restaurante\Restaurante.ApplicationCore\obj\Debug\netcoreapp2.0\Restaurante.ApplicationCore.csprojAssemblyReference.cache

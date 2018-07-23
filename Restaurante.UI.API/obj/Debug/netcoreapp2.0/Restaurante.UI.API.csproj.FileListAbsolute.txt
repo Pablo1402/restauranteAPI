@@ -1,0 +1,16 @@
+D:\pablo\restaurante\Restaurante.UI.API\bin\Debug\netcoreapp2.0\Restaurante.UI.API.deps.json
+D:\pablo\restaurante\Restaurante.UI.API\bin\Debug\netcoreapp2.0\Restaurante.UI.API.runtimeconfig.json
+D:\pablo\restaurante\Restaurante.UI.API\bin\Debug\netcoreapp2.0\Restaurante.UI.API.runtimeconfig.dev.json
+D:\pablo\restaurante\Restaurante.UI.API\bin\Debug\netcoreapp2.0\Restaurante.UI.API.dll
+D:\pablo\restaurante\Restaurante.UI.API\bin\Debug\netcoreapp2.0\Restaurante.UI.API.pdb
+D:\pablo\restaurante\Restaurante.UI.API\bin\Debug\netcoreapp2.0\Restaurante.ApplicationCore.dll
+D:\pablo\restaurante\Restaurante.UI.API\bin\Debug\netcoreapp2.0\Restaurante.Infrastructure.dll
+D:\pablo\restaurante\Restaurante.UI.API\bin\Debug\netcoreapp2.0\Restaurante.ApplicationCore.pdb
+D:\pablo\restaurante\Restaurante.UI.API\bin\Debug\netcoreapp2.0\Restaurante.Infrastructure.pdb
+D:\pablo\restaurante\Restaurante.UI.API\obj\Debug\netcoreapp2.0\Restaurante.UI.API.csprojAssemblyReference.cache
+D:\pablo\restaurante\Restaurante.UI.API\obj\Debug\netcoreapp2.0\Restaurante.UI.API.csproj.CoreCompileInputs.cache
+D:\pablo\restaurante\Restaurante.UI.API\obj\Debug\netcoreapp2.0\Restaurante.UI.API.AssemblyInfoInputs.cache
+D:\pablo\restaurante\Restaurante.UI.API\obj\Debug\netcoreapp2.0\Restaurante.UI.API.AssemblyInfo.cs
+D:\pablo\restaurante\Restaurante.UI.API\obj\Debug\netcoreapp2.0\Restaurante.UI.API.csproj.CopyComplete
+D:\pablo\restaurante\Restaurante.UI.API\obj\Debug\netcoreapp2.0\Restaurante.UI.API.dll
+D:\pablo\restaurante\Restaurante.UI.API\obj\Debug\netcoreapp2.0\Restaurante.UI.API.pdb
