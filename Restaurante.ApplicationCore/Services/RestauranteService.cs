@@ -38,6 +38,13 @@ namespace Restaurante.ApplicationCore.Services
             return _dal.getSingle(x => x.id == id, navigationProperties);
         }
 
+        public IEnumerable<restaurante> GetByNome(string nome, params Expression<Func<restaurante, object>>[] navigationProperties)
+        {
+            if (string.IsNullOrEmpty(nome))
+                return _dal.GetAll(navigationProperties);
+            return _dal.GetList(x => x.nome.Contains(nome), navigationProperties);
+        }
+
         public void Update(restaurante entity)
         {
             _dal.Update(entity);

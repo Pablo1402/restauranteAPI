@@ -13,6 +13,6 @@ namespace Restaurante.ApplicationCore.Interfaces.Service
         void Delete(restaurante entity);
         restaurante getById(long id, params Expression<Func<restaurante, object>>[] navigationProperties);
         IEnumerable<restaurante> GetAll(params Expression<Func<restaurante, object>>[] navigationProperties);
-        
+        IEnumerable<restaurante> GetByNome(string nome, params Expression<Func<restaurante, object>>[] navigationProperties);
     }
 }

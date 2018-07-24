@@ -27,6 +27,13 @@ namespace Restaurante.UI.API.Controllers
             return data;
         }
 
+        [HttpGet("nome/{nome}")]
+        public IEnumerable<restaurante> GetByNome(string nome ="")
+        {
+            var data = _svc.GetByNome(nome,x => x.pratos);
+            return data;
+        }
+
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {

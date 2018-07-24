@@ -14,5 +14,6 @@ namespace Restaurante.ApplicationCore.Interfaces.Service
         prato getById(long id,  params Expression<Func<prato, object>>[] navigationProperties);
         IEnumerable<prato> GetAll(params Expression<Func<prato, object>>[] navigationProperties);
         IEnumerable<prato> GetAllPratos(long restauranteId);
+        IEnumerable<prato> GetByNome(string nome, params Expression<Func<prato, object>>[] navigationProperties);
     }
 }

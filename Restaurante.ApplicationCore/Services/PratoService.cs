@@ -42,6 +42,13 @@ namespace Restaurante.ApplicationCore.Services
             return _dal.getSingle(x => x.id == id);
         }
 
+        public IEnumerable<prato> GetByNome(string nome, params Expression<Func<prato, object>>[] navigationProperties)
+        {
+            if (string.IsNullOrEmpty(nome))
+                return _dal.GetAll(navigationProperties);
+            return _dal.GetList(x => x.nome.Contains(nome), navigationProperties);
+        }
+
         public void Update(prato entity)
         {
             _dal.Update(entity);
