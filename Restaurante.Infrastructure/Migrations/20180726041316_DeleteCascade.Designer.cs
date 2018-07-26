@@ -11,8 +11,8 @@ using System;
 namespace Restaurante.Infrastructure.Migrations
 {
     [DbContext(typeof(RestauranteContext))]
-    [Migration("20180723021354_initBase")]
-    partial class initBase
+    [Migration("20180726041316_DeleteCascade")]
+    partial class DeleteCascade
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -61,7 +61,7 @@ namespace Restaurante.Infrastructure.Migrations
                     b.HasOne("Restaurante.ApplicationCore.Entity.restaurante", "restaurante")
                         .WithMany("pratos")
                         .HasForeignKey("restaurante_id")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

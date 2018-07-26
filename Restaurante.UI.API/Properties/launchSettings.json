@@ -2,6 +2,10 @@
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://restaurante.api.com.br",
+      "sslPort": 0
+    },
     "iisExpress": {
       "applicationUrl": "http://localhost:52294/",
       "sslPort": 0
@@ -24,6 +28,9 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
       "applicationUrl": "http://localhost:52295/"
+    },
+    "restaurante.api.com.br": {
+      "commandName": "IIS"
     }
   }
 }

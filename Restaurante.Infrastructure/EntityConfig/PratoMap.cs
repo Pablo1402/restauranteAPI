@@ -16,7 +16,7 @@ namespace Restaurante.Infrastructure.EntityConfig
                 .WithMany(p => p.pratos)
                 .HasForeignKey(p => p.restaurante_id)
                 .HasPrincipalKey(p => p.id)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.Property(p => p.nome).HasColumnType("varchar(200)").IsRequired();
             builder.Property(p => p.preco).HasColumnType("decimal(9,2)").IsRequired();

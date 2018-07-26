@@ -17,7 +17,7 @@ namespace Restaurante.Infrastructure.EntityConfig
                 .WithOne(c => c.restaurante)
                 .HasForeignKey(c => c.restaurante_id)
                 .HasPrincipalKey(c => c.id)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade);
 
             builder.Property(c => c.nome).HasColumnType("varchar(200)").IsRequired();
         }

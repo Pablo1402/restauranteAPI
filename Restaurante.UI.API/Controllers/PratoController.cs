@@ -24,14 +24,14 @@ namespace Restaurante.UI.API.Controllers
         [HttpGet]
         public IEnumerable<prato> Get()
         {
-            var data = _svc.GetAll();
+            var data = _svc.GetAll(x => x.restaurante);
             return data;
         }
 
         [HttpGet("nome/{nome}")]
         public IEnumerable<prato> GetByNome(string nome)
         {
-            var data = _svc.GetByNome(nome);
+            var data = _svc.GetByNome(nome, x => x.restaurante);
             return data;
         }
 

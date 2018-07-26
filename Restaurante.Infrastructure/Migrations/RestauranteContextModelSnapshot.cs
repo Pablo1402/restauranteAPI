@@ -60,7 +60,7 @@ namespace Restaurante.Infrastructure.Migrations
                     b.HasOne("Restaurante.ApplicationCore.Entity.restaurante", "restaurante")
                         .WithMany("pratos")
                         .HasForeignKey("restaurante_id")
-                        .OnDelete(DeleteBehavior.Restrict);
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

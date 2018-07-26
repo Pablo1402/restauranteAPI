@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Restaurante.Infrastructure.Migrations
 {
-    public partial class initBase : Migration
+    public partial class DeleteCascade : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -40,7 +40,7 @@ namespace Restaurante.Infrastructure.Migrations
                         column: x => x.restaurante_id,
                         principalTable: "restaurante",
                         principalColumn: "id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
